@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar-brand{
+	font-family: 'inter';
+}
+
+nav.sidebar-sticky {
+    height: 100vh;
+    overflow-y: auto;
+    min-height: 100vh; 
+}
+
+nav.sidebar-sticky ul li {
+    list-style-type: none;
+}
+
+nav.sidebar-sticky ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+nav.sidebar-sticky ul li a:hover {
+    background-color: #f3f4f6;
+}
+
+.form-input{
+	height: 30px;
+}
+
+.form-input:focus {
+    outline: none; 
+}
+
+.form-input:focus ~ .form-input-label {
+    color: navy;
+}
+
+.form-input:focus {
+    border: none; 
+    border-bottom: 1px solid navy;
+}
+
+.form-input {
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-input:focus {
+    border: none;
+    border-bottom: 1px solid navy;
+    padding-bottom: 7px;
+}

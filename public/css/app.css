@@ -1,0 +1,13 @@
+.navbar-brand{
+	font-family: 'Lato';
+	font-size: 32px;
+}
+
+.profile{
+	float: right;
+}
+
+.nav-link{
+	font-family: 'Monterrat';
+	font-size: 18px;
+}
